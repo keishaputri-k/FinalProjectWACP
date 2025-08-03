@@ -577,3 +577,23 @@ button span {
 .floating-box button[type="Submit"]:hover{
    background-image: linear-gradient(to bottom right,  rgb(36, 102, 224), rgb(87, 140, 219));
 }
+footer{
+    width: 100%;
+    background-color: var(--body-color);
+    border-radius: 5px 5px 0 0;
+    color: #6e777e;
+    text-align: center; 
+    justify-items: center;
+    padding: 20px;
+    margin: auto;
+    border-top: 1px solid #ddd;
+}
+.social{
+    margin-top: 10px;
+}
+
+.social a{
+    color: #6e777e;
+    text-decoration: none;
+    font-size: 15px;
+}
